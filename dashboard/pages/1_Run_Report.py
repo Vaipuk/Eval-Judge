@@ -95,9 +95,6 @@ def main():
                 help_text="Average of 5 LLM-judged dimensions",
             )
             st.caption(f"Based on {sq.get('count', 0)} scripts")
-
-            st.divider()
-            stat_row(sq)
         else:
             stats = run_data.get("statistics", {})
             score_card(
@@ -127,7 +124,13 @@ def main():
         if aggregation and "by_dimension" in aggregation:
             # Radar chart
             fig = radar_chart(aggregation["by_dimension"], title="All 7 Dimensions")
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
+
+    # Script quality statistics (full width for better display)
+    if aggregation and "script_quality" in aggregation:
+        sq = aggregation["script_quality"]
+        st.subheader("Script Quality Statistics")
+        stat_row(sq)
 
     st.divider()
 
@@ -154,7 +157,7 @@ def main():
             })
 
         df = pd.DataFrame(rows)
-        st.dataframe(df, use_container_width=True, hide_index=True)
+        st.dataframe(df, width="stretch", hide_index=True)
 
     st.divider()
 
@@ -168,7 +171,7 @@ def main():
             by_type = aggregation.get("by_video_type", {})
             if by_type:
                 fig = breakdown_bar_chart(by_type, title="Script Quality by Video Type")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width="stretch")
             else:
                 st.info("No breakdown by video type available.")
 
@@ -176,7 +179,7 @@ def main():
             by_duration = aggregation.get("by_duration_range", {})
             if by_duration:
                 fig = breakdown_bar_chart(by_duration, title="Script Quality by Duration")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width="stretch")
             else:
                 st.info("No breakdown by duration available.")
 
@@ -184,7 +187,7 @@ def main():
             by_platform = aggregation.get("by_platform", {})
             if by_platform:
                 fig = breakdown_bar_chart(by_platform, title="Script Quality by Platform")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width="stretch")
             else:
                 st.info("No breakdown by platform available.")
 

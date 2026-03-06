@@ -159,17 +159,17 @@ def main():
     with col1:
         st.markdown("**By Video Type**")
         type_counts = df["video_type"].value_counts()
-        st.dataframe(type_counts, use_container_width=True)
+        st.dataframe(type_counts, width="stretch")
 
     with col2:
         st.markdown("**By Duration**")
         duration_counts = df["duration_range"].fillna("Unknown").value_counts()
-        st.dataframe(duration_counts, use_container_width=True)
+        st.dataframe(duration_counts, width="stretch")
 
     with col3:
         st.markdown("**By Platform**")
         platform_counts = df["platform"].fillna("Unknown").value_counts()
-        st.dataframe(platform_counts, use_container_width=True)
+        st.dataframe(platform_counts, width="stretch")
 
 
 if __name__ == "__main__":

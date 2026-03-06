@@ -109,7 +109,7 @@ def main():
     with col1:
         if st.button(
             "🚀 Start Evaluation",
-            use_container_width=True,
+            width="stretch",
             disabled=st.session_state.eval_running,
             type="primary",
         ):

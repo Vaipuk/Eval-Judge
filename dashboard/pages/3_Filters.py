@@ -148,7 +148,7 @@ def main():
             color="video_type",
             title="Estimated Duration vs Script Quality",
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
     else:
         st.info("No data to display.")
 
@@ -177,9 +177,9 @@ def main():
             }
 
             fig = breakdown_bar_chart(breakdown_dict, title="Script Quality by Video Type")
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
 
-            st.dataframe(type_breakdown, use_container_width=True, hide_index=True)
+            st.dataframe(type_breakdown, width="stretch", hide_index=True)
 
     with tab2:
         if len(filtered_df) > 0:
@@ -199,9 +199,9 @@ def main():
             }
 
             fig = breakdown_bar_chart(breakdown_dict, title="Script Quality by Duration")
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
 
-            st.dataframe(duration_breakdown, use_container_width=True, hide_index=True)
+            st.dataframe(duration_breakdown, width="stretch", hide_index=True)
 
     with tab3:
         if len(filtered_df) > 0:
@@ -221,9 +221,9 @@ def main():
             }
 
             fig = breakdown_bar_chart(breakdown_dict, title="Script Quality by Platform")
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
 
-            st.dataframe(platform_breakdown, use_container_width=True, hide_index=True)
+            st.dataframe(platform_breakdown, width="stretch", hide_index=True)
 
     st.divider()
 
@@ -237,7 +237,7 @@ def main():
 
     st.dataframe(
         filtered_df[display_cols].sort_values("script_quality", ascending=False),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 

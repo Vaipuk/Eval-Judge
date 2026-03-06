@@ -118,7 +118,7 @@ def main():
         showlegend=False,
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     st.divider()
 
@@ -163,7 +163,7 @@ def main():
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         )
 
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     st.divider()
 
@@ -183,7 +183,7 @@ def main():
         })
 
     df = pd.DataFrame(timeline_data)
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, width="stretch", hide_index=True)
 
 
 if __name__ == "__main__":

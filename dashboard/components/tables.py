@@ -37,7 +37,7 @@ def dimension_scores_table(
         })
 
     df = pd.DataFrame(rows)
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, width="stretch", hide_index=True)
 
 
 def feedback_themes_table(themes: list[dict]):
@@ -61,7 +61,7 @@ def feedback_themes_table(themes: list[dict]):
         })
 
     df = pd.DataFrame(rows)
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, width="stretch", hide_index=True)
 
 
 def comparison_table(
@@ -120,8 +120,8 @@ def comparison_table(
             return "background-color: #E74C3C; color: white"
         return ""
 
-    styled_df = df.style.applymap(style_status, subset=["Status"])
-    st.dataframe(styled_df, use_container_width=True, hide_index=True)
+    styled_df = df.style.map(style_status, subset=["Status"])
+    st.dataframe(styled_df, width="stretch", hide_index=True)
 
 
 def script_results_table(results: list[dict], max_rows: int = 20):
@@ -149,4 +149,4 @@ def script_results_table(results: list[dict], max_rows: int = 20):
         })
 
     df = pd.DataFrame(rows)
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, width="stretch", hide_index=True)

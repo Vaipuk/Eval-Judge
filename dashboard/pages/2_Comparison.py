@@ -168,7 +168,7 @@ def main():
         run2_label=run2_prompt,
         dimensions=SCRIPT_QUALITY_DIMENSIONS,
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     # Script Quality Dimensions Table
     st.subheader("Script Quality Dimensions")
