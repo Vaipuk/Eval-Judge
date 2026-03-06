@@ -4,10 +4,16 @@ Run Evaluation Page
 Trigger new evaluation runs via CLI.
 """
 
-import streamlit as st
-import subprocess
 import sys
 from pathlib import Path
+
+# Add project root to path for imports
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+import streamlit as st
+import subprocess
 
 st.set_page_config(
     page_title="Run Evaluation - Eval-Judge",
@@ -16,7 +22,6 @@ st.set_page_config(
 )
 
 from dashboard.data.loader import list_runs, load_prompt_versions, clear_cache
-from dashboard.config import PROJECT_ROOT
 
 
 def run_evaluation_command(prompt_version: str, max_inputs: int) -> tuple[int, str]:
