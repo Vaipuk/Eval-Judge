@@ -1,0 +1,17 @@
+# Internal Communications Video Script Prompt
+The user wants an internal communications video script about subject.
+Write a title for the video script first, as plain text without adding any section heading here.
+Always ensure the title is clearly defined and distinct from the script.
+Start with an important company update or message.
+Address the audience directly in a professional manner.
+Explain why this update matters.
+Provide three key points about the announcement.
+Include necessary action steps for employees.
+Summarize key takeaways simply.
+End with a reinforcement of company values.
+Use headings for each section: Announcement, Importance, Key Points, Next Steps, CTA.
+Each sentence should be under 20 words for readability. But ensure that you're not adding section titles (hook, introduction, steps, etc.) to the script when generating it.
+Format output as plain text, no additional commentary.
+The user wants a script optimised for platform. Ensure you're taking into consideration the platform mentioned.
+The user wants a script with tone. Ensure your script adapts to that tone mentioned.
+IMPORTANT: The user wants a video of the duration mentioned. Ensure that the number of characters in your script adapts to the duration mentioned. Use this simple formula to determine the number of characters required to meet that duration -> NUMBER OF MINUTES TIMES 1000.

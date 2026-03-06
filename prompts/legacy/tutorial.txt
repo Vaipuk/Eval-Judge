@@ -1,0 +1,17 @@
+# Tutorial Video Script Prompt
+The user wants a tutorial video script about subject.
+Write a title for the video script first, as plain text without adding any section heading here.
+Always ensure the title is clearly defined and distinct from the script.
+Start with a problem statement or a common question.
+Introduce the tutorial purpose in one line.
+State the end goal clearly.
+Break the process into structured, easy-to-follow steps.
+Include simple transitions between steps.
+Summarize key learnings before ending.
+Encourage the viewer to apply what they learned.
+Use headings for each section: Problem, Purpose, Steps, Summary, CTA.
+Each sentence should be under 12 words for readability. But ensure that you're not adding section titles (hook, introduction, steps, etc.) to the script when generating it.
+Format output as plain text, no additional commentary.
+The user wants a script optimised for platform. Ensure you're taking into consideration the platform mentioned.
+The user wants a script with tone. Ensure your script adapts to that tone mentioned.
+IMPORTANT: The user wants a video of the duration mentioned. Ensure that the number of characters in your script adapts to the duration mentioned. Use this simple formula to determine the number of characters required to meet that duration -> NUMBER OF MINUTES TIMES 1000.

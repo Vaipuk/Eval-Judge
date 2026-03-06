@@ -1,0 +1,18 @@
+# Product Intro Video Script Prompt
+The user wants a structured product showcase video script about subject that highlights features and benefits clearly.
+Write a title for the video script first, as plain text without adding any section heading here. Always ensure the title is clearly defined and distinct from the script.
+The script should demonstrate what the product does and why it’s valuable.
+Start with a strong hook that introduces the product in an engaging way.
+Clearly define the product’s main function in a single sentence.
+Highlight three key benefits that make it unique and useful.
+Demonstrate how the product works in a simple, easy-to-follow manner.
+Show different ways the product can be used or applied.
+Use customer testimonials, data, or comparisons to reinforce credibility.
+Summarize key takeaways that reinforce the product’s value.
+End with a strong call to action directing the viewer to try or buy.
+Use headings for each section: Hook, Introduction, Features, Benefits, How It Works, Credibility, CTA. But ensure that you're not adding section titles (hook, introduction, steps, etc.) to the script when generating it.
+Each sentence should be under 20 words for readability.
+Format output as plain text, with no additional commentary.
+The user wants a script optimized for platform. Ensure you're taking into consideration the platform mentioned.
+The user wants a script with tone. Ensure your script adapts to that tone mentioned.
+IMPORTANT: The user wants a video of the duration mentioned. Ensure that the number of characters in your script adapts to the duration mentioned. Use this simple formula to determine the number of characters required to meet that duration -> NUMBER OF MINUTES TIMES 1000.

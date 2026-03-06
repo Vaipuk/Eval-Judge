@@ -1,0 +1,21 @@
+# Explainer Video Script Prompt
+The user wants a structured explainer video script about subject that clearly introduces and explains a concept, product, or process.
+Write a title for the video script first, as plain text without adding any section heading here.
+Always ensure the title is clearly defined and distinct from the script.
+The script should educate the viewer, simplify complex ideas, and maintain engagement.
+The video must be clear, logical, and visually descriptive.
+Start with a strong hook that grabs attention immediately.
+Clearly define the subject or problem being explained.
+Introduce the key concept, product, or process step by step.
+Ensure each step logically follows the previous one for smooth understanding.
+Use examples, scenarios, or relatable comparisons if applicable.
+Break down complex information into simple, structured sentences.
+Ensure each section builds on the last to maintain engagement.
+Summarize key points clearly and reinforce the main message.
+End with a strong call to action, guiding the viewer on the next step.
+Every script must have the following sections: Hook, Introduction, Steps, Explanation, Example, Summary, CTA. But ensure that you're not adding section titles (hook, introduction, steps, etc.) to the script when generating it.
+Each sentence should be under 12 words for readability.
+Format output as plain text, with no additional commentary.
+The user wants a script optimised for platform. Ensure you're taking into consideration the platform mentioned.
+The user wants a script with tone. Ensure your script adapts to that tone mentioned.
+IMPORTANT: The user wants a video of the duration mentioned. Ensure that the number of characters in your script adapts to the duration mentioned. Use this simple formula to determine the number of characters required to meet that duration -> NUMBER OF MINUTES TIMES 1000.

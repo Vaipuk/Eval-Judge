@@ -1,0 +1,404 @@
+{
+  "run_id": "eval-unified-v2.1-20260227-154224",
+  "prompt_version": "unified-v2.1",
+  "total_evaluated": 50,
+  "script_quality": {
+    "mean": 3.26,
+    "median": 3.2,
+    "std": 0.3,
+    "min": 2.6,
+    "max": 4.0,
+    "count": 50,
+    "missing": 0
+  },
+  "system_metrics": {
+    "timing_accuracy": {
+      "mean": 4.02,
+      "median": 5.0,
+      "std": 1.33,
+      "min": 1,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "template_compatibility": {
+      "mean": 3.46,
+      "median": 4.0,
+      "std": 0.65,
+      "min": 2,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    }
+  },
+  "overall": {
+    "mean": 3.45,
+    "median": 3.48,
+    "std": 0.28,
+    "min": 2.8,
+    "max": 4.0,
+    "count": 50,
+    "missing": 0
+  },
+  "by_dimension": {
+    "hook_quality": {
+      "mean": 3.24,
+      "median": 3.0,
+      "std": 0.62,
+      "min": 2,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "tone_match": {
+      "mean": 3.16,
+      "median": 3.0,
+      "std": 0.55,
+      "min": 2,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "structural_flow": {
+      "mean": 3.36,
+      "median": 3.0,
+      "std": 0.48,
+      "min": 3,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    },
+    "content_richness": {
+      "mean": 2.6,
+      "median": 3.0,
+      "std": 0.61,
+      "min": 1,
+      "max": 3,
+      "count": 50,
+      "missing": 0
+    },
+    "completeness": {
+      "mean": 3.92,
+      "median": 4.0,
+      "std": 0.44,
+      "min": 2,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "timing_accuracy": {
+      "mean": 4.02,
+      "median": 5.0,
+      "std": 1.33,
+      "min": 1,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "template_compatibility": {
+      "mean": 3.46,
+      "median": 4.0,
+      "std": 0.65,
+      "min": 2,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    }
+  },
+  "by_video_type": {
+    "Explainer": {
+      "mean": 3.36,
+      "median": 3.4,
+      "std": 0.28,
+      "min": 2.8,
+      "max": 4.0,
+      "count": 20,
+      "missing": 0
+    },
+    "Marketing": {
+      "mean": 3.16,
+      "median": 3.2,
+      "std": 0.25,
+      "min": 2.6,
+      "max": 3.6,
+      "count": 19,
+      "missing": 0
+    },
+    "Tutorial": {
+      "mean": 3.1,
+      "median": 3.1,
+      "std": 0.21,
+      "min": 2.8,
+      "max": 3.4,
+      "count": 6,
+      "missing": 0
+    },
+    "Communications": {
+      "mean": 3.8,
+      "median": 3.8,
+      "std": 0.0,
+      "min": 3.8,
+      "max": 3.8,
+      "count": 1,
+      "missing": 0
+    },
+    "Showcase": {
+      "mean": 3.3,
+      "median": 3.3,
+      "std": 0.48,
+      "min": 2.8,
+      "max": 3.8,
+      "count": 4,
+      "missing": 0
+    }
+  },
+  "by_duration_range": {
+    "> 5min": {
+      "mean": 3.24,
+      "median": 3.2,
+      "std": 0.17,
+      "min": 3.0,
+      "max": 3.4,
+      "count": 5,
+      "missing": 0
+    },
+    "30s - 1min": {
+      "mean": 3.29,
+      "median": 3.3,
+      "std": 0.38,
+      "min": 2.8,
+      "max": 4.0,
+      "count": 16,
+      "missing": 0
+    },
+    "1min": {
+      "mean": 3.3,
+      "median": 3.2,
+      "std": 0.2,
+      "min": 3.2,
+      "max": 3.6,
+      "count": 4,
+      "missing": 0
+    },
+    "1min - 5min": {
+      "mean": 3.23,
+      "median": 3.2,
+      "std": 0.27,
+      "min": 3.0,
+      "max": 3.6,
+      "count": 7,
+      "missing": 0
+    },
+    "30s": {
+      "mean": 3.35,
+      "median": 3.4,
+      "std": 0.21,
+      "min": 3.0,
+      "max": 3.6,
+      "count": 8,
+      "missing": 0
+    },
+    "Unknown": {
+      "mean": 3.14,
+      "median": 3.2,
+      "std": 0.33,
+      "min": 2.6,
+      "max": 3.8,
+      "count": 10,
+      "missing": 0
+    }
+  },
+  "by_platform": {
+    "YouTube": {
+      "mean": 3.24,
+      "median": 3.2,
+      "std": 0.25,
+      "min": 2.8,
+      "max": 3.6,
+      "count": 17,
+      "missing": 0
+    },
+    "Facebook Reels": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.0,
+      "min": 3.4,
+      "max": 3.4,
+      "count": 1,
+      "missing": 0
+    },
+    "YouTube Shorts": {
+      "mean": 3.36,
+      "median": 3.2,
+      "std": 0.52,
+      "min": 2.8,
+      "max": 4.0,
+      "count": 5,
+      "missing": 0
+    },
+    "Website": {
+      "mean": 3.2,
+      "median": 3.2,
+      "std": 0.0,
+      "min": 3.2,
+      "max": 3.2,
+      "count": 1,
+      "missing": 0
+    },
+    "Instagram Feed": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.28,
+      "min": 3.2,
+      "max": 3.6,
+      "count": 2,
+      "missing": 0
+    },
+    "Instagram Reels": {
+      "mean": 3.32,
+      "median": 3.4,
+      "std": 0.33,
+      "min": 3.0,
+      "max": 3.8,
+      "count": 5,
+      "missing": 0
+    },
+    "TikTok": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.0,
+      "min": 3.4,
+      "max": 3.4,
+      "count": 2,
+      "missing": 0
+    },
+    "Twitter/X Video": {
+      "mean": 3.2,
+      "median": 3.2,
+      "std": 0.28,
+      "min": 3.0,
+      "max": 3.4,
+      "count": 2,
+      "missing": 0
+    },
+    "Internal Company": {
+      "mean": 3.6,
+      "median": 3.6,
+      "std": 0.0,
+      "min": 3.6,
+      "max": 3.6,
+      "count": 1,
+      "missing": 0
+    },
+    "Facebook Feed": {
+      "mean": 3.0,
+      "median": 3.0,
+      "std": 0.0,
+      "min": 3.0,
+      "max": 3.0,
+      "count": 1,
+      "missing": 0
+    },
+    "Unknown": {
+      "mean": 3.17,
+      "median": 3.2,
+      "std": 0.31,
+      "min": 2.6,
+      "max": 3.8,
+      "count": 13,
+      "missing": 0
+    }
+  },
+  "feedback_themes": [
+    {
+      "name": "Template: QUOTE underrepresented: 0.0% (target: 10...",
+      "count": 47,
+      "affected_dimensions": [],
+      "representative_example": "Template: QUOTE underrepresented: 0.0% (target: 10%-15%)",
+      "improvements": [
+        "Template: QUOTE underrepresented: 0.0% (target: 10%-15%)"
+      ]
+    },
+    {
+      "name": "Template: SECTION underrepresented: 0.0% (target: ...",
+      "count": 34,
+      "affected_dimensions": [],
+      "representative_example": "Template: SECTION underrepresented: 0.0% (target: 10%-15%)",
+      "improvements": [
+        "Template: SECTION underrepresented: 0.0% (target: 10%-15%)"
+      ]
+    },
+    {
+      "name": "Template: No SECTION scenes despite script length ...",
+      "count": 33,
+      "affected_dimensions": [],
+      "representative_example": "Template: No SECTION scenes despite script length > 12 scenes",
+      "improvements": [
+        "Template: No SECTION scenes despite script length > 12 scenes"
+      ]
+    },
+    {
+      "name": "Template: NUMBER underrepresented: 0.0% (target: 1...",
+      "count": 27,
+      "affected_dimensions": [],
+      "representative_example": "Template: NUMBER underrepresented: 0.0% (target: 10%-15%)",
+      "improvements": [
+        "Template: NUMBER underrepresented: 0.0% (target: 10%-15%)"
+      ]
+    },
+    {
+      "name": "Template: DEFAULT overrepresented: 50.0% (target: ...",
+      "count": 8,
+      "affected_dimensions": [],
+      "representative_example": "Template: DEFAULT overrepresented: 50.0% (target: 35%-45%)",
+      "improvements": [
+        "Template: DEFAULT overrepresented: 50.0% (target: 35%-45%)"
+      ]
+    },
+    {
+      "name": "Template: LIST underrepresented: 0.0% (target: 15%...",
+      "count": 7,
+      "affected_dimensions": [],
+      "representative_example": "Template: LIST underrepresented: 0.0% (target: 15%-20%)",
+      "improvements": [
+        "Template: LIST underrepresented: 0.0% (target: 15%-20%)"
+      ]
+    },
+    {
+      "name": "Template: EMPHASIS underrepresented: 0.0% (target:...",
+      "count": 5,
+      "affected_dimensions": [],
+      "representative_example": "Template: EMPHASIS underrepresented: 0.0% (target: 5%-10%)",
+      "improvements": [
+        "Template: EMPHASIS underrepresented: 0.0% (target: 5%-10%)"
+      ]
+    },
+    {
+      "name": "Template: LIST overrepresented: 33.3% (target: 15%...",
+      "count": 5,
+      "affected_dimensions": [],
+      "representative_example": "Template: LIST overrepresented: 33.3% (target: 15%-20%)",
+      "improvements": [
+        "Template: LIST overrepresented: 33.3% (target: 15%-20%)"
+      ]
+    },
+    {
+      "name": "Template: LIST overrepresented: 31.2% (target: 15%...",
+      "count": 5,
+      "affected_dimensions": [],
+      "representative_example": "Template: LIST overrepresented: 31.2% (target: 15%-20%)",
+      "improvements": [
+        "Template: LIST overrepresented: 31.2% (target: 15%-20%)"
+      ]
+    },
+    {
+      "name": "Template: LIST overrepresented: 25.0% (target: 15%...",
+      "count": 4,
+      "affected_dimensions": [],
+      "representative_example": "Template: LIST overrepresented: 25.0% (target: 15%-20%)",
+      "improvements": [
+        "Template: LIST overrepresented: 25.0% (target: 15%-20%)"
+      ]
+    }
+  ]
+}

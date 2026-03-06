@@ -1,0 +1,176 @@
+{
+  "run1_id": "eval-legacy-v1.0-20260227-042136",
+  "run2_id": "eval-unified-v2.1-20260227-154224",
+  "run1_prompt": "legacy-v1.0",
+  "run2_prompt": "unified-v2.1",
+  "matched_inputs": 50,
+  "script_quality": {
+    "run1_mean": 3.35,
+    "run2_mean": 3.26,
+    "delta": -0.09,
+    "p_value": null,
+    "classification": "NO_CHANGE"
+  },
+  "system_metrics": {
+    "timing_accuracy": {
+      "run1_mean": 4.08,
+      "run2_mean": 4.02,
+      "delta": -0.06,
+      "n_pairs": 50
+    },
+    "template_compatibility": {
+      "run1_mean": 2.86,
+      "run2_mean": 3.46,
+      "delta": 0.6,
+      "n_pairs": 50
+    }
+  },
+  "overall": {
+    "run1_mean": 3.39,
+    "run2_mean": 3.45,
+    "delta": 0.06,
+    "p_value": null,
+    "classification": "NO_CHANGE"
+  },
+  "by_dimension": {
+    "hook_quality": {
+      "run1_mean": 3.4,
+      "run2_mean": 3.24,
+      "delta": -0.16,
+      "p_value": null,
+      "classification": "NO_CHANGE",
+      "n_pairs": 50
+    },
+    "tone_match": {
+      "run1_mean": 3.46,
+      "run2_mean": 3.16,
+      "delta": -0.3,
+      "p_value": null,
+      "classification": "NO_CHANGE",
+      "n_pairs": 50
+    },
+    "structural_flow": {
+      "run1_mean": 3.54,
+      "run2_mean": 3.36,
+      "delta": -0.18,
+      "p_value": null,
+      "classification": "NO_CHANGE",
+      "n_pairs": 50
+    },
+    "content_richness": {
+      "run1_mean": 2.53,
+      "run2_mean": 2.59,
+      "delta": 0.06,
+      "p_value": null,
+      "classification": "NO_CHANGE",
+      "n_pairs": 49
+    },
+    "completeness": {
+      "run1_mean": 3.83,
+      "run2_mean": 3.91,
+      "delta": 0.09,
+      "p_value": null,
+      "classification": "NO_CHANGE",
+      "n_pairs": 47
+    }
+  },
+  "improvements": [],
+  "regressions": [],
+  "feedback_theme_diff": {
+    "resolved": [
+      {
+        "name": "Template: Only 2 categories triggered",
+        "count": 5,
+        "affected_dimensions": [],
+        "representative_example": "Template: Only 2 categories triggered",
+        "improvements": [
+          "Template: Only 2 categories triggered"
+        ]
+      },
+      {
+        "name": "Template: TITLE overrepresented: 16.7% (target: 5%...",
+        "count": 5,
+        "affected_dimensions": [],
+        "representative_example": "Template: TITLE overrepresented: 16.7% (target: 5%-10%)",
+        "improvements": [
+          "Template: TITLE overrepresented: 16.7% (target: 5%-10%)"
+        ]
+      },
+      {
+        "name": "Template: TITLE overrepresented: 14.3% (target: 5%...",
+        "count": 6,
+        "affected_dimensions": [],
+        "representative_example": "Template: TITLE overrepresented: 14.3% (target: 5%-10%)",
+        "improvements": [
+          "Template: TITLE overrepresented: 14.3% (target: 5%-10%)"
+        ]
+      }
+    ],
+    "persistent": [
+      {
+        "name": "Template: LIST underrepresented: 0.0% (target: 15%...",
+        "run1_count": 22,
+        "run2_count": 7
+      },
+      {
+        "name": "Template: QUOTE underrepresented: 0.0% (target: 10...",
+        "run1_count": 45,
+        "run2_count": 47
+      },
+      {
+        "name": "Template: DEFAULT overrepresented: 50.0% (target: ...",
+        "run1_count": 5,
+        "run2_count": 8
+      },
+      {
+        "name": "Template: SECTION underrepresented: 0.0% (target: ...",
+        "run1_count": 35,
+        "run2_count": 34
+      },
+      {
+        "name": "Template: NUMBER underrepresented: 0.0% (target: 1...",
+        "run1_count": 41,
+        "run2_count": 27
+      },
+      {
+        "name": "Template: EMPHASIS underrepresented: 0.0% (target:...",
+        "run1_count": 11,
+        "run2_count": 5
+      },
+      {
+        "name": "Template: No SECTION scenes despite script length ...",
+        "run1_count": 10,
+        "run2_count": 33
+      }
+    ],
+    "new": [
+      {
+        "name": "Template: LIST overrepresented: 25.0% (target: 15%...",
+        "count": 4,
+        "affected_dimensions": [],
+        "representative_example": "Template: LIST overrepresented: 25.0% (target: 15%-20%)",
+        "improvements": [
+          "Template: LIST overrepresented: 25.0% (target: 15%-20%)"
+        ]
+      },
+      {
+        "name": "Template: LIST overrepresented: 31.2% (target: 15%...",
+        "count": 5,
+        "affected_dimensions": [],
+        "representative_example": "Template: LIST overrepresented: 31.2% (target: 15%-20%)",
+        "improvements": [
+          "Template: LIST overrepresented: 31.2% (target: 15%-20%)"
+        ]
+      },
+      {
+        "name": "Template: LIST overrepresented: 33.3% (target: 15%...",
+        "count": 5,
+        "affected_dimensions": [],
+        "representative_example": "Template: LIST overrepresented: 33.3% (target: 15%-20%)",
+        "improvements": [
+          "Template: LIST overrepresented: 33.3% (target: 15%-20%)"
+        ]
+      }
+    ]
+  }
+}

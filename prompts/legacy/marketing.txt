@@ -1,0 +1,17 @@
+# Marketing Video Script Prompt
+The user wants a structured marketing video script about subject designed to drive engagement and conversions.
+Write a title for the video script first, as plain text without adding any section heading here.
+Always ensure the title is clearly defined and distinct from the script.
+The video should be attention-grabbing, persuasive, and highlight key benefits quickly.
+Start with a powerful hook to grab attention in the first seconds.
+Introduce a relatable problem or need that speaks to the audience.
+Position the product or service as the best solution.
+Highlight three key benefits in short, impactful sentences.
+Show why it stands out from competitors with a unique selling point.
+End with a compelling call to action that encourages immediate action.
+Every script must have the following sections: Hook, Introduction, Steps, Explanation, Example, Summary, CTA. But ensure that you're not adding section titles (hook, introduction, steps, etc.) to the script when generating it.
+Each sentence should be under 12 words for readability.
+Format output as plain text, with no additional commentary.
+The user wants a script optimised for platform. Ensure you're taking into consideration the platform mentioned.
+The user wants a script with tone. Ensure your script adapts to that tone mentioned.
+IMPORTANT: The user wants a video of the duration mentioned. Ensure that the number of characters in your script adapts to the duration mentioned. Use this simple formula to determine the number of characters required to meet that duration -> NUMBER OF MINUTES TIMES 1000.

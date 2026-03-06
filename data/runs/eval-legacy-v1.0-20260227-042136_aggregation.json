@@ -1,0 +1,404 @@
+{
+  "run_id": "eval-legacy-v1.0-20260227-042136",
+  "prompt_version": "legacy-v1.0",
+  "total_evaluated": 50,
+  "script_quality": {
+    "mean": 3.35,
+    "median": 3.4,
+    "std": 0.3,
+    "min": 2.8,
+    "max": 4.0,
+    "count": 50,
+    "missing": 0
+  },
+  "system_metrics": {
+    "timing_accuracy": {
+      "mean": 4.08,
+      "median": 5.0,
+      "std": 1.26,
+      "min": 1,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "template_compatibility": {
+      "mean": 2.86,
+      "median": 3.0,
+      "std": 0.99,
+      "min": 1,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    }
+  },
+  "overall": {
+    "mean": 3.39,
+    "median": 3.4,
+    "std": 0.38,
+    "min": 2.4,
+    "max": 4.0,
+    "count": 50,
+    "missing": 0
+  },
+  "by_dimension": {
+    "hook_quality": {
+      "mean": 3.4,
+      "median": 3.0,
+      "std": 0.53,
+      "min": 3,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "tone_match": {
+      "mean": 3.46,
+      "median": 3.0,
+      "std": 0.68,
+      "min": 2,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "structural_flow": {
+      "mean": 3.54,
+      "median": 4.0,
+      "std": 0.5,
+      "min": 3,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    },
+    "content_richness": {
+      "mean": 2.53,
+      "median": 3,
+      "std": 0.77,
+      "min": 1,
+      "max": 4,
+      "count": 49,
+      "missing": 1
+    },
+    "completeness": {
+      "mean": 3.83,
+      "median": 4,
+      "std": 0.43,
+      "min": 3,
+      "max": 5,
+      "count": 47,
+      "missing": 3
+    },
+    "timing_accuracy": {
+      "mean": 4.08,
+      "median": 5.0,
+      "std": 1.26,
+      "min": 1,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "template_compatibility": {
+      "mean": 2.86,
+      "median": 3.0,
+      "std": 0.99,
+      "min": 1,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    }
+  },
+  "by_video_type": {
+    "Explainer": {
+      "mean": 3.44,
+      "median": 3.4,
+      "std": 0.29,
+      "min": 3.0,
+      "max": 4.0,
+      "count": 20,
+      "missing": 0
+    },
+    "Marketing": {
+      "mean": 3.31,
+      "median": 3.25,
+      "std": 0.31,
+      "min": 2.8,
+      "max": 4.0,
+      "count": 19,
+      "missing": 0
+    },
+    "Tutorial": {
+      "mean": 3.27,
+      "median": 3.2,
+      "std": 0.27,
+      "min": 3.0,
+      "max": 3.6,
+      "count": 6,
+      "missing": 0
+    },
+    "Communications": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.0,
+      "min": 3.4,
+      "max": 3.4,
+      "count": 1,
+      "missing": 0
+    },
+    "Showcase": {
+      "mean": 3.2,
+      "median": 3.3,
+      "std": 0.28,
+      "min": 2.8,
+      "max": 3.4,
+      "count": 4,
+      "missing": 0
+    }
+  },
+  "by_duration_range": {
+    "> 5min": {
+      "mean": 3.32,
+      "median": 3.2,
+      "std": 0.3,
+      "min": 3.0,
+      "max": 3.8,
+      "count": 5,
+      "missing": 0
+    },
+    "30s - 1min": {
+      "mean": 3.29,
+      "median": 3.2,
+      "std": 0.34,
+      "min": 2.8,
+      "max": 4.0,
+      "count": 16,
+      "missing": 0
+    },
+    "1min": {
+      "mean": 3.15,
+      "median": 3.1,
+      "std": 0.19,
+      "min": 3.0,
+      "max": 3.4,
+      "count": 4,
+      "missing": 0
+    },
+    "1min - 5min": {
+      "mean": 3.46,
+      "median": 3.4,
+      "std": 0.22,
+      "min": 3.2,
+      "max": 3.8,
+      "count": 7,
+      "missing": 0
+    },
+    "30s": {
+      "mean": 3.45,
+      "median": 3.4,
+      "std": 0.35,
+      "min": 3.0,
+      "max": 4.0,
+      "count": 8,
+      "missing": 0
+    },
+    "Unknown": {
+      "mean": 3.38,
+      "median": 3.4,
+      "std": 0.24,
+      "min": 3.0,
+      "max": 3.8,
+      "count": 10,
+      "missing": 0
+    }
+  },
+  "by_platform": {
+    "YouTube": {
+      "mean": 3.31,
+      "median": 3.2,
+      "std": 0.3,
+      "min": 2.8,
+      "max": 3.8,
+      "count": 17,
+      "missing": 0
+    },
+    "Facebook Reels": {
+      "mean": 3.6,
+      "median": 3.6,
+      "std": 0.0,
+      "min": 3.6,
+      "max": 3.6,
+      "count": 1,
+      "missing": 0
+    },
+    "YouTube Shorts": {
+      "mean": 3.44,
+      "median": 3.4,
+      "std": 0.22,
+      "min": 3.2,
+      "max": 3.8,
+      "count": 5,
+      "missing": 0
+    },
+    "Website": {
+      "mean": 3.2,
+      "median": 3.2,
+      "std": 0.0,
+      "min": 3.2,
+      "max": 3.2,
+      "count": 1,
+      "missing": 0
+    },
+    "Instagram Feed": {
+      "mean": 3.3,
+      "median": 3.3,
+      "std": 0.42,
+      "min": 3.0,
+      "max": 3.6,
+      "count": 2,
+      "missing": 0
+    },
+    "Instagram Reels": {
+      "mean": 3.32,
+      "median": 3.2,
+      "std": 0.44,
+      "min": 2.8,
+      "max": 4.0,
+      "count": 5,
+      "missing": 0
+    },
+    "TikTok": {
+      "mean": 3.2,
+      "median": 3.2,
+      "std": 0.28,
+      "min": 3.0,
+      "max": 3.4,
+      "count": 2,
+      "missing": 0
+    },
+    "Twitter/X Video": {
+      "mean": 3.0,
+      "median": 3.0,
+      "std": 0.0,
+      "min": 3.0,
+      "max": 3.0,
+      "count": 2,
+      "missing": 0
+    },
+    "Internal Company": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.0,
+      "min": 3.4,
+      "max": 3.4,
+      "count": 1,
+      "missing": 0
+    },
+    "Facebook Feed": {
+      "mean": 3.2,
+      "median": 3.2,
+      "std": 0.0,
+      "min": 3.2,
+      "max": 3.2,
+      "count": 1,
+      "missing": 0
+    },
+    "Unknown": {
+      "mean": 3.47,
+      "median": 3.4,
+      "std": 0.28,
+      "min": 3.0,
+      "max": 4.0,
+      "count": 13,
+      "missing": 0
+    }
+  },
+  "feedback_themes": [
+    {
+      "name": "Template: QUOTE underrepresented: 0.0% (target: 10...",
+      "count": 45,
+      "affected_dimensions": [],
+      "representative_example": "Template: QUOTE underrepresented: 0.0% (target: 10%-15%)",
+      "improvements": [
+        "Template: QUOTE underrepresented: 0.0% (target: 10%-15%)"
+      ]
+    },
+    {
+      "name": "Template: NUMBER underrepresented: 0.0% (target: 1...",
+      "count": 41,
+      "affected_dimensions": [],
+      "representative_example": "Template: NUMBER underrepresented: 0.0% (target: 10%-15%)",
+      "improvements": [
+        "Template: NUMBER underrepresented: 0.0% (target: 10%-15%)"
+      ]
+    },
+    {
+      "name": "Template: SECTION underrepresented: 0.0% (target: ...",
+      "count": 35,
+      "affected_dimensions": [],
+      "representative_example": "Template: SECTION underrepresented: 0.0% (target: 10%-15%)",
+      "improvements": [
+        "Template: SECTION underrepresented: 0.0% (target: 10%-15%)"
+      ]
+    },
+    {
+      "name": "Template: LIST underrepresented: 0.0% (target: 15%...",
+      "count": 22,
+      "affected_dimensions": [],
+      "representative_example": "Template: LIST underrepresented: 0.0% (target: 15%-20%)",
+      "improvements": [
+        "Template: LIST underrepresented: 0.0% (target: 15%-20%)"
+      ]
+    },
+    {
+      "name": "Template: EMPHASIS underrepresented: 0.0% (target:...",
+      "count": 11,
+      "affected_dimensions": [],
+      "representative_example": "Template: EMPHASIS underrepresented: 0.0% (target: 5%-10%)",
+      "improvements": [
+        "Template: EMPHASIS underrepresented: 0.0% (target: 5%-10%)"
+      ]
+    },
+    {
+      "name": "Template: No SECTION scenes despite script length ...",
+      "count": 10,
+      "affected_dimensions": [],
+      "representative_example": "Template: No SECTION scenes despite script length > 12 scenes",
+      "improvements": [
+        "Template: No SECTION scenes despite script length > 12 scenes"
+      ]
+    },
+    {
+      "name": "Template: TITLE overrepresented: 14.3% (target: 5%...",
+      "count": 6,
+      "affected_dimensions": [],
+      "representative_example": "Template: TITLE overrepresented: 14.3% (target: 5%-10%)",
+      "improvements": [
+        "Template: TITLE overrepresented: 14.3% (target: 5%-10%)"
+      ]
+    },
+    {
+      "name": "Template: DEFAULT overrepresented: 50.0% (target: ...",
+      "count": 5,
+      "affected_dimensions": [],
+      "representative_example": "Template: DEFAULT overrepresented: 50.0% (target: 35%-45%)",
+      "improvements": [
+        "Template: DEFAULT overrepresented: 50.0% (target: 35%-45%)"
+      ]
+    },
+    {
+      "name": "Template: TITLE overrepresented: 16.7% (target: 5%...",
+      "count": 5,
+      "affected_dimensions": [],
+      "representative_example": "Template: TITLE overrepresented: 16.7% (target: 5%-10%)",
+      "improvements": [
+        "Template: TITLE overrepresented: 16.7% (target: 5%-10%)"
+      ]
+    },
+    {
+      "name": "Template: Only 2 categories triggered",
+      "count": 5,
+      "affected_dimensions": [],
+      "representative_example": "Template: Only 2 categories triggered",
+      "improvements": [
+        "Template: Only 2 categories triggered"
+      ]
+    }
+  ]
+}
