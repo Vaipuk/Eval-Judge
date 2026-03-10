@@ -4,10 +4,11 @@ Evaluation Pipeline CLI
 Command-line interface for running evaluations, comparisons, and managing prompts.
 
 Usage:
-    python -m evaluator run --prompt <prompt_id>
+    python -m evaluator run --prompt <prompt_id>           # Runs eval + aggregation
+    python -m evaluator run --prompt <prompt_id> --no-aggregate  # Skip aggregation
     python -m evaluator compare --run1 <run_id> --run2 <run_id>
     python -m evaluator report --run <run_id>
-    python -m evaluator aggregate --run <run_id>
+    python -m evaluator aggregate --run <run_id>           # Manual aggregation
     python -m evaluator prompts list
     python -m evaluator prompts register --id <id> --type <type> --model <model> --file <path>
     python -m evaluator prompts set-status --id <id> --status <status>
@@ -46,15 +47,15 @@ def cmd_run(args):
     if not result:
         return 1
 
-    # Optionally run aggregation
-    if args.aggregate:
+    # Run aggregation by default (unless --no-aggregate is specified)
+    if not args.no_aggregate:
         run_id = result.get("run_id")
         print(f"\nRunning aggregation for {run_id}...")
         agg = aggregate_run(run_id, run_result=result)
         agg_path = save_aggregation(run_id, agg)
         print(f"Aggregation saved to: {agg_path}")
 
-        # Generate report
+        # Generate report if requested
         if args.report:
             report = generate_report(run_id, run_result=result, aggregation=agg)
             report_path = save_report(run_id, report)
@@ -296,7 +297,7 @@ def main():
     run_parser.add_argument("--prompt", "-p", required=True, help="Prompt version ID")
     run_parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation")
     run_parser.add_argument("--max-inputs", "-n", type=int, help="Limit number of inputs")
-    run_parser.add_argument("--aggregate", "-a", action="store_true", help="Run aggregation after")
+    run_parser.add_argument("--no-aggregate", action="store_true", help="Skip aggregation after run")
     run_parser.add_argument("--report", "-r", action="store_true", help="Generate report after")
     run_parser.set_defaults(func=cmd_run)
 

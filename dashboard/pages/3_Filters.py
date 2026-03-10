@@ -41,7 +41,7 @@ def main():
 
     # Run selector
     run_options = {
-        f"{r['prompt_version']} ({r['run_id'][:20]}...)": r['run_id']
+        f"{r['prompt_version']} ({r['timestamp'][:16]})": r['run_id']
         for r in runs
     }
 

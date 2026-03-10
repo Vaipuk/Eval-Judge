@@ -9,7 +9,7 @@ import streamlit as st
 from dashboard.config import DATA_DIR, RUNS_DIR
 
 
-@st.cache_data(ttl=300)
+@st.cache_data(ttl=30)  # Short TTL - run list changes frequently
 def list_runs() -> list[dict]:
     """
     List all completed evaluation runs with metadata.
@@ -61,7 +61,7 @@ def load_run(run_id: str) -> Optional[dict]:
         return json.load(f)
 
 
-@st.cache_data
+@st.cache_data(ttl=60)  # Short TTL - aggregations can be generated
 def load_aggregation(run_id: str) -> Optional[dict]:
     """Load aggregation for a run if exists."""
     path = RUNS_DIR / f"{run_id}_aggregation.json"
@@ -73,7 +73,7 @@ def load_aggregation(run_id: str) -> Optional[dict]:
         return json.load(f)
 
 
-@st.cache_data
+@st.cache_data(ttl=60)  # Short TTL - comparisons can be generated
 def load_comparison(run1_id: str, run2_id: str) -> Optional[dict]:
     """Load existing comparison between two runs."""
     # Try both orderings

@@ -37,7 +37,7 @@ def main():
         st.divider()
 
         # Refresh button
-        if st.button("🔄 Refresh Data", width="stretch"):
+        if st.button("🔄 Refresh Data"):
             clear_cache()
             st.rerun()
 
