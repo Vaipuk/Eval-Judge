@@ -1,0 +1,515 @@
+{
+  "run_id": "eval-legacy-v1.0-20260309-080341",
+  "prompt_version": "legacy-v1.0",
+  "total_evaluated": 50,
+  "script_quality": {
+    "mean": 3.4,
+    "median": 3.4,
+    "std": 0.35,
+    "min": 2.8,
+    "max": 4.4,
+    "count": 50,
+    "missing": 0
+  },
+  "system_metrics": {
+    "timing_accuracy": {
+      "mean": 4.08,
+      "median": 5.0,
+      "std": 1.26,
+      "min": 1,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "template_compatibility": {
+      "mean": 2.84,
+      "median": 3.0,
+      "std": 1.0,
+      "min": 1,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    }
+  },
+  "overall": {
+    "mean": 3.44,
+    "median": 3.48,
+    "std": 0.42,
+    "min": 2.25,
+    "max": 4.3,
+    "count": 50,
+    "missing": 0
+  },
+  "by_dimension": {
+    "hook_quality": {
+      "mean": 3.4,
+      "median": 3.0,
+      "std": 0.53,
+      "min": 2,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    },
+    "tone_match": {
+      "mean": 3.5,
+      "median": 4.0,
+      "std": 0.99,
+      "min": 1,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "structural_flow": {
+      "mean": 3.72,
+      "median": 4.0,
+      "std": 0.76,
+      "min": 2,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "content_richness": {
+      "mean": 2.3,
+      "median": 2.0,
+      "std": 0.61,
+      "min": 1,
+      "max": 3,
+      "count": 50,
+      "missing": 0
+    },
+    "completeness": {
+      "mean": 4.08,
+      "median": 4.0,
+      "std": 0.53,
+      "min": 3,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "timing_accuracy": {
+      "mean": 4.08,
+      "median": 5.0,
+      "std": 1.26,
+      "min": 1,
+      "max": 5,
+      "count": 50,
+      "missing": 0
+    },
+    "template_compatibility": {
+      "mean": 2.84,
+      "median": 3.0,
+      "std": 1.0,
+      "min": 1,
+      "max": 4,
+      "count": 50,
+      "missing": 0
+    }
+  },
+  "by_video_type": {
+    "Explainer": {
+      "mean": 3.52,
+      "median": 3.4,
+      "std": 0.4,
+      "min": 2.8,
+      "max": 4.4,
+      "count": 20,
+      "missing": 0
+    },
+    "Marketing": {
+      "mean": 3.37,
+      "median": 3.4,
+      "std": 0.31,
+      "min": 2.8,
+      "max": 4.0,
+      "count": 19,
+      "missing": 0
+    },
+    "Tutorial": {
+      "mean": 3.17,
+      "median": 3.2,
+      "std": 0.34,
+      "min": 2.8,
+      "max": 3.6,
+      "count": 6,
+      "missing": 0
+    },
+    "Communications": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.0,
+      "min": 3.4,
+      "max": 3.4,
+      "count": 1,
+      "missing": 0
+    },
+    "Showcase": {
+      "mean": 3.3,
+      "median": 3.3,
+      "std": 0.12,
+      "min": 3.2,
+      "max": 3.4,
+      "count": 4,
+      "missing": 0
+    }
+  },
+  "by_duration_range": {
+    "> 5min": {
+      "mean": 3.16,
+      "median": 3.2,
+      "std": 0.36,
+      "min": 2.8,
+      "max": 3.6,
+      "count": 5,
+      "missing": 0
+    },
+    "30s - 1min": {
+      "mean": 3.39,
+      "median": 3.4,
+      "std": 0.41,
+      "min": 2.8,
+      "max": 4.2,
+      "count": 16,
+      "missing": 0
+    },
+    "1min": {
+      "mean": 3.35,
+      "median": 3.4,
+      "std": 0.1,
+      "min": 3.2,
+      "max": 3.4,
+      "count": 4,
+      "missing": 0
+    },
+    "1min - 5min": {
+      "mean": 3.57,
+      "median": 3.4,
+      "std": 0.42,
+      "min": 3.2,
+      "max": 4.4,
+      "count": 7,
+      "missing": 0
+    },
+    "30s": {
+      "mean": 3.38,
+      "median": 3.4,
+      "std": 0.31,
+      "min": 3.0,
+      "max": 3.8,
+      "count": 8,
+      "missing": 0
+    },
+    "Unknown": {
+      "mean": 3.46,
+      "median": 3.4,
+      "std": 0.3,
+      "min": 3.0,
+      "max": 4.0,
+      "count": 10,
+      "missing": 0
+    }
+  },
+  "by_platform": {
+    "YouTube": {
+      "mean": 3.44,
+      "median": 3.4,
+      "std": 0.43,
+      "min": 2.8,
+      "max": 4.4,
+      "count": 17,
+      "missing": 0
+    },
+    "Facebook Reels": {
+      "mean": 3.8,
+      "median": 3.8,
+      "std": 0.0,
+      "min": 3.8,
+      "max": 3.8,
+      "count": 1,
+      "missing": 0
+    },
+    "YouTube Shorts": {
+      "mean": 3.44,
+      "median": 3.4,
+      "std": 0.09,
+      "min": 3.4,
+      "max": 3.6,
+      "count": 5,
+      "missing": 0
+    },
+    "Website": {
+      "mean": 2.8,
+      "median": 2.8,
+      "std": 0.0,
+      "min": 2.8,
+      "max": 2.8,
+      "count": 1,
+      "missing": 0
+    },
+    "Instagram Feed": {
+      "mean": 3.5,
+      "median": 3.5,
+      "std": 0.42,
+      "min": 3.2,
+      "max": 3.8,
+      "count": 2,
+      "missing": 0
+    },
+    "Instagram Reels": {
+      "mean": 3.24,
+      "median": 3.2,
+      "std": 0.36,
+      "min": 2.8,
+      "max": 3.8,
+      "count": 5,
+      "missing": 0
+    },
+    "TikTok": {
+      "mean": 3.2,
+      "median": 3.2,
+      "std": 0.28,
+      "min": 3.0,
+      "max": 3.4,
+      "count": 2,
+      "missing": 0
+    },
+    "Twitter/X Video": {
+      "mean": 2.9,
+      "median": 2.9,
+      "std": 0.14,
+      "min": 2.8,
+      "max": 3.0,
+      "count": 2,
+      "missing": 0
+    },
+    "Internal Company": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.0,
+      "min": 3.4,
+      "max": 3.4,
+      "count": 1,
+      "missing": 0
+    },
+    "Facebook Feed": {
+      "mean": 3.4,
+      "median": 3.4,
+      "std": 0.0,
+      "min": 3.4,
+      "max": 3.4,
+      "count": 1,
+      "missing": 0
+    },
+    "Unknown": {
+      "mean": 3.51,
+      "median": 3.4,
+      "std": 0.29,
+      "min": 3.0,
+      "max": 4.0,
+      "count": 13,
+      "missing": 0
+    }
+  },
+  "feedback_themes": [
+    {
+      "name": "Underuse of key templates and sections",
+      "count": 185,
+      "affected_dimensions": [
+        "template_compatibility",
+        "structural_flow",
+        "completeness"
+      ],
+      "representative_example": "Template: QUOTE underrepresented: 0.0% (target: 10%-15%)",
+      "improvements": [
+        "Template: QUOTE underrepresented: 0.0% (target: 10%-15%)",
+        "Template: NUMBER underrepresented: 0.0% (target: 10%-15%)",
+        "Template: SECTION underrepresented: 0.0% (target: 10%-15%)",
+        "Template: LIST underrepresented: 0.0% (target: 15%-20%)",
+        "Template: No SECTION scenes despite script length > 12 scenes",
+        "Template: EMPHASIS underrepresented: 0.0% (target: 5%-10%)",
+        "Template: Only 2 categories triggered",
+        "Template: SECTION underrepresented: 8.3% (target: 10%-15%)",
+        "Template: LIST underrepresented: 10.0% (target: 15%-20%)",
+        "Template: LIST underrepresented: 8.3% (target: 15%-20%)",
+        "Template: NUMBER underrepresented: 9.1% (target: 10%-15%)",
+        "Template: TITLE underrepresented: 2.4% (target: 5%-10%)",
+        "Template: LIST underrepresented: 9.8% (target: 15%-20%)",
+        "Template: NUMBER underrepresented: 7.3% (target: 10%-15%)"
+      ]
+    },
+    {
+      "name": "Skewed overuse of default/title/emphasis",
+      "count": 77,
+      "affected_dimensions": [
+        "template_compatibility",
+        "structural_flow"
+      ],
+      "representative_example": "Template: DEFAULT overrepresented: 66.7% (target: 35%-45%)",
+      "improvements": [
+        "Template: TITLE overrepresented: 14.3% (target: 5%-10%)",
+        "Template: TITLE overrepresented: 16.7% (target: 5%-10%)",
+        "Template: TITLE overrepresented: 11.1% (target: 5%-10%)",
+        "Template: DEFAULT overrepresented: 66.7% (target: 35%-45%)",
+        "Template: Heavy DEFAULT skew: 66.7%",
+        "Template: EMPHASIS overrepresented: 28.6% (target: 5%-10%)",
+        "Template: DEFAULT overrepresented: 50.0% (target: 35%-45%)",
+        "Template: TITLE overrepresented: 20.0% (target: 5%-10%)",
+        "Template: DEFAULT overrepresented: 60.0% (target: 35%-45%)",
+        "Template: LIST overrepresented: 25.0% (target: 15%-20%)",
+        "Template: DEFAULT overrepresented: 57.1% (target: 35%-45%)",
+        "Template: DEFAULT overrepresented: 83.3% (target: 35%-45%)",
+        "Template: Heavy DEFAULT skew: 83.3%",
+        "Template: EMPHASIS overrepresented: 20.0% (target: 5%-10%)",
+        "Template: DEFAULT overrepresented: 71.4% (target: 35%-45%)",
+        "Template: Heavy DEFAULT skew: 71.4%",
+        "Template: EMPHASIS overrepresented: 11.1% (target: 5%-10%)",
+        "Template: LIST overrepresented: 23.1% (target: 15%-20%)",
+        "Template: DEFAULT overrepresented: 84.6% (target: 35%-45%)",
+        "Template: Heavy DEFAULT skew: 84.6%",
+        "Template: EMPHASIS overrepresented: 16.7% (target: 5%-10%)",
+        "Template: LIST overrepresented: 42.9% (target: 15%-20%)",
+        "Template: LIST overrepresented: 33.3% (target: 15%-20%)",
+        "Template: DEFAULT overrepresented: 53.8% (target: 35%-45%)",
+        "Template: QUOTE overrepresented: 80.5% (target: 10%-15%)",
+        "Template: DEFAULT underrepresented: 0.0% (target: 35%-45%)"
+      ]
+    },
+    {
+      "name": "Deeper evidence, data, and definitions",
+      "count": 16,
+      "affected_dimensions": [
+        "content_richness",
+        "completeness",
+        "template_compatibility"
+      ],
+      "representative_example": "Add authoritative definitions and expert references (e.g., WHO ICD-11 definition of burnout; Christina Maslach and the Maslach Burnout Inventory) and cite sources on-screen to bolster credibility.",
+      "improvements": [
+        "Open with a clear definition: Add 2–3 lines such as \"Burnout is a state of emotional, physical, and mental exhaustion caused by chronic workplace or caregiving stress. It shows up as energy depletion, cynicism, and reduced effectiveness.\"",
+        "Differentiate burnout vs. stress/depression briefly to educate: \"Stress fluctuates with demands; burnout persists and drains motivation. If you suspect depression, consult a professional.\"",
+        "Contextualize statistics with source and relevance: \"According to [credible source], 77% of professionals report burnout symptoms. That means most teams are affected, so recognizing signs matters.\"",
+        "Include brief causes and risk factors: \"Common drivers: workload, lack of control, low recognition, value misalignment, and poor recovery time.\"",
+        "Add authoritative definitions and expert references (e.g., WHO ICD-11 definition of burnout; Christina Maslach and the Maslach Burnout Inventory) and cite sources on-screen to bolster credibility.",
+        "Include 3–5 additional data points with clear sourcing (e.g., Gallup stats on frequency/causes, APA findings on outcomes, industry-specific prevalence) to deepen specificity and trigger NUMBER templates.",
+        "Name evidence-based methods with concrete parameters (e.g., Pomodoro 25/5, 90-minute ultradian cycles, 4-7-8 or box breathing counts, 20-20-20 eye rule) so viewers can apply them.",
+        "Reference practical tools/apps by name (e.g., Headspace/Insight Timer for guided breathing, Forest/RescueTime for focus, CBT-i Coach for sleep) to add concrete options.",
+        "Quantify lifestyle basics with targets (e.g., 7–9 hours sleep; caffeine cutoff at 2 p.m.; 150 minutes/week moderate exercise; 20-minute daily nature walk) to move beyond general advice.",
+        "Include at least one expert pull-quote (e.g., from WHO or Maslach) and one brief case vignette with before/after metrics to raise informational value and trigger QUOTE templates.",
+        "Add a simple self-check framework (e.g., \"3-signal burnout scan\": emotional exhaustion, depersonalization, reduced efficacy; or a short MBI/Copenhagen screener pointer) with guidance on when to seek professional help.",
+        "Add verified event details for each quake: local time/UTC, exact location (nearest city/province), depth, and magnitude for the Myanmar tremors (e.g., \"USGS M4.1, 10 km NE of Bago, depth 15 km, 08:12 UTC; EMSC M3.9 near Mandalay, depth 12 km, 08:27 UTC\").",
+        "Cite authoritative sources and IDs to replace vague attributions (e.g., \"USGS Event ID us7000xyz\", \"EMSC #1234567\") and remove \"scientists warn\" unless you name the agency and data.",
+        "Name the specific tectonic structures: \"Indian Plate colliding with the Eurasian Plate\" for Afghanistan; \"Sagaing Fault/Burma Microplate and Sunda subduction zone\" for Myanmar instead of the broad \"Pacific Ring of Fire.\"",
+        "Include impact metrics where available: MMI intensity, \"felt\" reports count, nearest population center distance (e.g., \"MMI III in Kabul; ~7 km SW of Khost\").",
+        "Add brief historical context/compare to recent norms (e.g., \"Afghanistan averages X quakes ≥4.0/month; last similar event was M4.5 on [date]\")."
+      ]
+    },
+    {
+      "name": "Clear structure, signposting, and transitions",
+      "count": 11,
+      "affected_dimensions": [
+        "structural_flow",
+        "completeness"
+      ],
+      "representative_example": "Introduce a simple framework and signposting: \"In this video, you'll learn: 1) What burnout is, 2) How to spot it, 3) What causes it, 4) How to recover.\" Use transitions like \"First,\" \"Next,\" \"Then,\" and \"Finally.\"",
+      "improvements": [
+        "Introduce a simple framework and signposting: \"In this video, you'll learn: 1) What burnout is, 2) How to spot it, 3) What causes it, 4) How to recover.\" Use transitions like \"First,\" \"Next,\" \"Then,\" and \"Finally.\"",
+        "Use YouTube-friendly signposting and recap: Insert mini chapter headers on-screen and add a 15–20 second summary at the end: \"Today we covered definition, signs, causes, and a 3-step recovery plan.\"",
+        "Add explicit section signposts to separate explanation from examples, e.g., after \"Burnout isn’t the end; it’s a signpost. A turn. A beginning.\": \"Now, how do you recover? Start here…\" before the rest/awareness steps.",
+        "Bridge the connection-to-prioritization jump by inserting a transitional sentence: after \"Connection rewires the brain; find your people and let them in.\", add \"With support around you, you can start to choose what truly matters.\" before \"You don’t have to do it all. Focus only on what matters.\"",
+        "Consolidate the stats into one contextual beat to avoid redundancy and improve flow: merge \"Over one billion people globally…\" and \"Burnout affects 77% of professionals.\" under a single intro like \"Here’s the scope: …\" before moving on.",
+        "Insert a brief recap before the final uplift/CTA to crystallize takeaways: e.g., just before \"You are not broken; you are rebuilding.\", add \"Rest. Reflect. Rebuild. Reconnect. These small steps restore a big life.\"",
+        "Mark the midpoint emotional shift to sync with the intended music swell: after \"See a group of people laughing together outdoors.\", add \"From surviving to rebuilding, the light grows with every step.\" to signal the rising arc.",
+        "Add a one- to two-line recap of concrete practices referenced earlier to summarize the explainer: e.g., \"Rest and unplug. Breathe and journal. Step into nature. Reach out and reconnect. Start small, repeat daily.\"",
+        "Add a bridging phrase to transition from examples to the broader takeaway, e.g., “Zooming out,” or “Big picture,” before “Earth isn’t always about major quakes.”",
+        "Insert a one-sentence recap before the CTA to strengthen the conclusion, e.g., “In short: Today’s quakes align with normal plate interactions in the region, with no major damage reported.”",
+        "Use lightweight section signposts to reinforce the arc, e.g., “What happened,” “Why it’s happening,” “Regional examples,” “What it means,” to smooth transitions further."
+      ]
+    },
+    {
+      "name": "Stronger hooks and upfront value",
+      "count": 10,
+      "affected_dimensions": [
+        "hook_quality",
+        "tone_match"
+      ],
+      "representative_example": "Lead with a surprising, topic-locked fact to create immediate urgency (e.g., “77% of professionals experience burnout—here’s how to spot it and start recovering in the next 7 minutes”).",
+      "improvements": [
+        "Lead with a surprising, topic-locked fact to create immediate urgency (e.g., “77% of professionals experience burnout—here’s how to spot it and start recovering in the next 7 minutes”).",
+        "Add an explicit value proposition with a clear promise: “In the next 7 minutes, you’ll learn a 3-step reset you can start today.”",
+        "Swap the generic rhetorical question for a provocative, burnout-specific claim: “If you think a weekend off fixes burnout, you’re treating the symptom—not the cause.”",
+        "Pull a strong stat from later scenes (e.g., “Over one billion people globally experience burnout”) into the first 5–10 seconds to sharpen the hook.",
+        "Replace the definition line with a curiosity hook that ties the events together and promises a takeaway: “Are Afghanistan and Myanmar connected by the same stress build-up? Here’s what the live data shows in the next 20 seconds.”",
+        "Add a surprising, specific stat to heighten urgency: “Four quakes across the region in 6 hours” or “Felt reports from Kabul to Mandalay,” if accurate.",
+        "Time-stamp the events for immediacy on Reels: “within the last 2 hours” and note the strongest magnitude and closest cities.",
+        "Tease a clear value proposition: “We’ll map the fault lines and explain what this means for the next 24 hours.”",
+        "Use a provocative but responsible question instead of a broad warning: “Is a larger quake likely? Here’s what scientists are watching today.”",
+        "Replace the hard news opener with an educational hook that stays punchy: \"What’s behind today’s quakes in Afghanistan and Myanmar? Here’s the 30‑second breakdown.\""
+      ]
+    },
+    {
+      "name": "Timing outside target duration range",
+      "count": 9,
+      "affected_dimensions": [
+        "timing_accuracy"
+      ],
+      "representative_example": "Timing: Script is 28.3 seconds outside target duration range",
+      "improvements": [
+        "Timing: Script is 0.9 seconds outside target duration range",
+        "Timing: Script is 28.3 seconds outside target duration range",
+        "Timing: Script is 2.1 seconds outside target duration range",
+        "Timing: Script is 0.4 seconds outside target duration range",
+        "Timing: Script is 1.3 seconds outside target duration range"
+      ]
+    },
+    {
+      "name": "Tone clarity, neutrality, and accessibility",
+      "count": 8,
+      "affected_dimensions": [
+        "tone_match",
+        "structural_flow",
+        "hook_quality"
+      ],
+      "representative_example": "Swap alarmist phrasing for neutral context: change \"scientists warn, seismic activity is on the rise\" to \"regional monitors detected several small events today—here’s why that clustering can happen.\"",
+      "improvements": [
+        "Anchor the metaphor to work-life specifics to reduce generic feel: “Endless deadlines, silent nights at the laptop—if that desert feels familiar, this is for you.”",
+        "Pair each metaphor with plain-language explanation: After lines like \"endless desert,\" add \"That means persistent exhaustion, detachment, and decreased performance over weeks or months.\"",
+        "Reduce or revise highly poetic lines to teacher-like clarity (e.g., replace \"You were never meant to survive\" with \"The goal isn't to just cope daily; it's to restore energy and engagement.\")",
+        "Maintain conversational but instructional tone: Use direct, clear sentences and limit metaphors to one per scene, immediately followed by an explanatory sentence.",
+        "Swap alarmist phrasing for neutral context: change \"scientists warn, seismic activity is on the rise\" to \"regional monitors detected several small events today—here’s why that clustering can happen.\"",
+        "Briefly define introduced terms inline for accessibility: \"Pacific Ring of Fire—the horseshoe-shaped zone with many active faults.\"",
+        "Remove florid language to maintain a steady teacher voice: change \"mighty Himalayas\" to \"the Himalayas.\"",
+        "Add a simple analogy to explain stress release: \"like a bent ruler that suddenly snaps back.\""
+      ]
+    },
+    {
+      "name": "Actionable CTAs and step-by-step micro-plans",
+      "count": 7,
+      "affected_dimensions": [
+        "completeness",
+        "content_richness",
+        "hook_quality"
+      ],
+      "representative_example": "Make the CTA specific and immediately actionable: e.g., \"Before you close this video, do one thing: take 5 deep breaths, text a friend ‘Can we talk?’, or schedule a 15-minute walk today.\"",
+      "improvements": [
+        "Add a concise, actionable recovery sequence: \"Try the 3R method: Recognize (track symptoms for 1 week), Reduce (remove or delegate 1–2 low-impact tasks), Restore (sleep 7–9 hours, 10-minute walks, 5-minute breathing daily).\"",
+        "Offer a numbered, step-by-step micro-plan (e.g., \"7-day reset\": Day 1 energy audit; Day 2 boundary script; Day 3 sleep routine with 60-minute screen curfew; etc.) to trigger LIST templates and increase actionability.",
+        "Make the CTA specific and immediately actionable: e.g., \"Before you close this video, do one thing: take 5 deep breaths, text a friend ‘Can we talk?’, or schedule a 15-minute walk today.\"",
+        "Tailor the CTA to YouTube: e.g., \"Check the description for a 7-day reset checklist and support resources. Comment your ‘first step’ below, and subscribe for guided resets and tools.\"",
+        "Tie the summary back to the recurring avatar/desert-to-beach motif to reinforce narrative closure: e.g., \"From desert to shore: rest, reconnect, rebuild. Your first step starts now.\"",
+        "If appropriate, add a soft time-bound nudge to increase commitment: e.g., \"Pick your first step and do it in the next 10 minutes—then tell us in the comments.\"",
+        "End with a platform-specific, non-alarmist CTA: \"For quick daily explainers on global quakes, follow us.\""
+      ]
+    },
+    {
+      "name": "Platform-specific visuals, pacing, and beats",
+      "count": 2,
+      "affected_dimensions": [
+        "structural_flow",
+        "tone_match"
+      ],
+      "representative_example": "Tighten into Reels-friendly bursts and add implied visual beats: \"Plate collision builds pressure → sudden release = earthquake\" and on-screen labels like \"Plate Collision,\" \"Active Faults,\" \"Normal Clusters.\"",
+      "improvements": [
+        "Include a vivid, topic-specific visual cue in the script: “Watch the epicenter markers jump on the map—then the fault that links them.”",
+        "Tighten into Reels-friendly bursts and add implied visual beats: \"Plate collision builds pressure → sudden release = earthquake\" and on-screen labels like \"Plate Collision,\" \"Active Faults,\" \"Normal Clusters.\""
+      ]
+    }
+  ]
+}
