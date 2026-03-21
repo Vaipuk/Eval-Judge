@@ -156,21 +156,38 @@ class BedrockJudge(BaseJudge):
 class OpenAIJudge(BaseJudge):
     """Judge using OpenAI models."""
 
+    # Models that don't support custom temperature (only default=1)
+    MODELS_NO_TEMPERATURE = ["gpt-5", "o1", "o1-mini", "o1-preview", "o3", "o3-mini"]
+
     def __init__(self, client, model_id: str):
         self.client = client
         self.model_id = model_id
 
+    def _supports_temperature(self) -> bool:
+        """Check if the current model supports custom temperature."""
+        model_lower = self.model_id.lower()
+        for no_temp_model in self.MODELS_NO_TEMPERATURE:
+            if no_temp_model in model_lower:
+                return False
+        return True
+
     def evaluate(self, system_prompt: str, user_prompt: str) -> dict:
         """Evaluate using OpenAI chat completions API."""
-        response = self.client.chat.completions.create(
-            model=self.model_id,
-            messages=[
+        # Build request params
+        params = {
+            "model": self.model_id,
+            "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            response_format={"type": "json_object"},
-            temperature=0.3,
-        )
+            "response_format": {"type": "json_object"},
+        }
+
+        # Only add temperature for models that support it
+        if self._supports_temperature():
+            params["temperature"] = 0.3
+
+        response = self.client.chat.completions.create(**params)
 
         content = response.choices[0].message.content
         return parse_judge_response(content)
